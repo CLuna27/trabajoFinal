@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M&L VARIEDADES</title>
+    <!-- Enlace a Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Hoja de estilo CSS personalizada -->
+    <link href="/css/Index.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <!-- INICIO MENU DE NAVEGACIÓN -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid miMenuNavegacion">
+                <a class="navbar-brand" href="./index.html">
+                    <img class="logo" src="./imagenes/Logo inicio.jpg" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link" href="./segundaPagina.html">Maquillaje</a>
+                        <a class="nav-link" href="#">Sobre nosotros</a>
+                        <a class="nav-link" href="true">Categoria</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+    <!-- Inicio Formulario de iniciar sesion -->
+            <!-- Botones -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid miMenuNavegacion">
+ 
+                    <!-- Botón para abrir el modal de iniciar sesión -->
+                    <button type="button" class="botonInicial" data-toggle="modal" data-target="#formularioModal">
+                        iniciar sesion
+                    </button>
+        
+                    <!-- Botón para abrir el modal de inscripción -->
+                    <button type="button" class="botonInicial" data-toggle="modal" data-target="#formularioInscripcionModal">
+                        Inscribirse
+                    </button>
+                </div>
+            </nav>
+            <!-- FIN MENU DE NAVEGACIÓN -->
+        
+            <!-- Modal de iniciar sesión -->
+
+     <div class="modal fade" id="formularioModal" tabindex="-1" role="dialog"    
+        aria-labelledby="formularioModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="formularioModalLabel">Mi cuenta</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Contenido del formulario -->
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput"
+                        placeholder="name@example.com">
+                    <label for="floatingInput">Correo Electrónico</label>
+                </div>
+                <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword"
+                        placeholder="Password">
+                    <label for="floatingPassword">Contraseña</label>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary">Ingresar</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Scripts de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+     <!-- Fin Formulario de iniciar sesion -->
+    </body>
+
+    </html>
+
+    </header>
+
+    <!-- Inicio Formulario de inscripcion -->
+
+    <!DOCTYPE html>
+    <html lang="es">
+
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario en Ventana Flotante</title>
+    <!-- Estilos de Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+        
+            <!-- Modal del formulario de inscripción -->
+<div class="modal fade" id="formularioInscripcionModal" tabindex="-1" role="dialog" aria-labelledby="formularioInscripcionModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="formularioInscripcionModalLabel">Formulario de Inscripción</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+                <!-- Contenido del formulario de inscripción -->
+                <form>
+                    <div class="form-group">
+                        <label for="nombreInscripcion">Nombre Completo:</label>
+                        <input type="text" class="form-control" id="nombreInscripcion" placeholder="Ingrese su nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="emailInscripcion">Cedula:</label>
+                        <input type="email" class="form-control" id="emailInscripcion" placeholder="Ingrese su correo electrónico">
+                    </div>
+                    <div class="form-group">
+                        <label for="nombreInscripcion">Ciudad:</label>
+                        <input type="text" class="form-control" id="nombreInscripcion" placeholder="Ingrese su nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="nombreInscripcion">Direccion:</label>
+                        <input type="text" class="form-control" id="nombreInscripcion" placeholder="Ingrese su nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="nombreInscripcion">Correo Electrónico:</label>
+                        <input type="text" class="form-control" id="nombreInscripcion" placeholder="Ingrese su nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="nombreInscripcion"> Crear Contraseña:</label>
+                        <input type="text" class="form-control" id="nombreInscripcion" placeholder="Ingrese su nombre">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Inscribirse</button>
+                <button type="button" class="btn btn-primary">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+        </header>
+        
+        <!-- FIN MENU DE NAVEGACIÓN -->
+
+        <!-- Carousel con imágenes -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-80" src="imagenes/Imagen1.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-80" src="imagenes/Imagen2.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-80" src="imagenes/Imagen3.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    <main>
+        <!-- Secciones de contenido -->
+        <section class="container mt-4">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h2>Maquillaje</h2>
+                    <p>Descubre un mundo de belleza infinita en nuestra sección de maquillaje. Sumérgete en un universo
+                        de
+                        colores vibrantes, texturas sedosas y productos innovadores que te permitirán expresar tu estilo
+                        único .</p>
+                </div>
+                <div class="col-lg-4">
+                    <h2>Cuidado corporal</h2>
+                    <p>Revitaliza tu piel de pies a cabeza con nuestra selección de productos de cuidado corporal. Desde
+                        exfoliantes suaves hasta lociones hidratantes, encuentra todo lo que necesitas para mimar tu
+                        piel y
+                        sentirte renovado.</p>
+                </div>
+                <div class="col-lg-4">
+                    <h2>Perfumeria</h2>
+                    <p>Explora nuestra perfumería para encontrar la fragancia perfecta, tanto para ella como para él.
+                        Desde
+                        clásicos elegantes hasta los aromas más modernos, descubre la esencia de la sofisticación y el
+                        encanto personal.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="row">
+                <div class="card" style="width: 18rem;">
+                    <img src="./imagenes/Maquillajemujer.jpg" class="card-img-top" alt="Maquillajemujer">
+                    <div class="card-body">
+                        <p class="card-text">"Transformando lo ordinario en extraordinario. 💄✨ #MaquillajeMágico
+                            #ArteEnRostros".</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./imagenes/Perfumeria.jpg" class="card-img-top" alt="perfumeria">
+                    <div class="card-body">
+                        <p class="card-text">"Embárcate en un viaje olfativo hacia la elegancia y la sofisticación. 🌸✨
+                            #FraganciasQueInspiran #AromasInolvidables".</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./imagenes/Cuidadofacial.jpg" class="card-img-top" alt="Cuidadofacial">
+                    <div class="card-body">
+                        <p class="card-text">"Despierta tu piel con amor y cuidado. ✨💆‍♀️ #RutinaDeBelleza
+                            #PielRadiante".</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./imagenes/Cuidadocorporal.jpg" class="card-img-top" alt="Cuidadocorporal">
+                    <div class="card-body">
+                        <p class="card-text">"Nutriendo cuerpo y alma, un cuidado que se siente desde adentro hacia
+                            afuera. 🌿💫 #BienestarIntegral #AmorPropio"
+                            .</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section>
+            <h2>✨Viva Tu Belleza Viva✨</h2>
+            <div class="video-maquillaje">
+                <iframe width="600" height="400" src="./imagenes/VideoNatura.mp4" frameborder="0"
+                    allowfullscreen></iframe>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3 mifooter">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>
+                        <font color="black">Información del creador </style>
+                        </font>
+                    </p>
+                    <p>
+                        <font color="black"> M&L VARIEDADES </font>
+                    </p>
+                    <p>
+                        <font color="black">© 2023</font>
+                    </p>
+                    <p>
+                        <font color="black">Todos los derechos reservados </font>
+                    </p>
+                </div>
+                <div class="col">
+                    <p>
+                        <font color="black">Redes sociales </font>
+                    </p>
+
+                    <!-- Logos -->
+
+            <!-- Facebook -->
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAn1JREFUSEvFll1oz1EYxz+LRsu83WxygaSIXLmQJuXCXNokFyhyRUSyxM3ukJfalEutlLU0K5m4cSNlYrUScuO1vCTZGmmLOF+dv87/OOd3zv/nYk/tYr//c57P85znOc/z1DFFUjdFXGoFTwPWAouBBdbpd8BrYAj4mRtILngZcBxoA+ZGjH8BrgGngBcpB1LgBuA0sB9QtDnyAzgHdAKTsQNF4EXATWBlDi2g8xDYAigV/0gMvAK4B8wvCa0cE3SdrYEqUyFwsy0URZySj8Bd4CXwHZgObAWWOwefWviYaywE7gO2p4jGuPT2AaOe7kFzUxe8bxeBA0VgefosA6ooVkeezyFT+V2eDRWZnuD7ync/4svArgywrnPA05Nh/bUDitqXMyYdx0LgeuATMDsDrJt57uj129wWHdXbXhoCbwTuZEClIufGra4cnsg899dh96p3Az2ZBhqBr1Z3luNE6rje9XUpueAOQHnIkbLgw0C3Dz4KnI1QXwFLcjwCrgLbIrpinPfBqmZVdUhqAT8GVkXs7AB6fbDG3f3IgaqKLIhcg+SbmVAzIjprgGEfrHan0aZi8UXd6U9urJx0Jo+q+oT9rtwfiUBlQ73/lw/W/znvUXpliusKsLPilN+5dBUaZykpA1ben8TA+n7LTKfNCXKtYN1kVaXHxqKGwLwCeC3gD4Dme9UUiy0CG8xSd9usPTMj8Fyw2qpa8SPfTtHq0wIMAnMC8BywBs4ms/6MhJxPLXsLbSfS+uJKCnzDrDt7zHj8HEtXClx5cuuBvabBtAJNkef01qbnEvAg9SxywL4N9ew3zvahbiVngtvk/0Sccr7U72UiLgXyD/0GGLB0H1VMfAgAAAAASUVORK5CYII=" />
+                <!-- Instagram -->
+                        <img 
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAwZJREFUSEvllknojlEUxn9/YxmKIvOQDFFmNmQIO0RSlIzFws4QJWRIFGKjLMxKWRgybSgZisyJSCxkSiky7Qzn0Xn1dt37vu9n81dufb313XvPc89znjPUUU+rrp5w+eeBOwA9gYYlDH0DngJvypgs8rg9sBWYCLQuMxTsvwfOAitSj0gBC+yoATd3g1+Au4A8KlpNgCFAUz/0GZgBnAsvxYCbAc8AebzfvruB2xVAM9uNgFHAev++BnqZ91/z4DFgXVjrHs+skWIdn22gsnsIuAiM9UesKwN+CXRyj9/WCCxQAWrN9/DcA14BnYuARa8U+dg87psA1aOmACOAH8A14ITfmwMc9HsLPFSfgBZAW+BdZjOkWsJQPK96fELsRWZkG9Ay2PgILAH2AfOc6geWETddLz2A/oD++7VCYInisqfCpMD4MgcVyE7gDtAYGOCg8krg2suv+w4qhsROFHgCcN6pm5a7PdhfL6qGeszyxrv6Q8SEWHuY21SMBzqDYrIQ+JjRMj13eYOl0xpgKbAjEfuVwBZgtTGxKXdGzOjho4ErKeDxwIWIx6cBUa+fKlJsiSE9OHy0NCMWlFaXUsDaVO6dMZFNzlk/6UqWmk/VCCyBDTPtjHPbUaozYBkXSLZUUFRYlpuityeAVznF+m7Onbnluhjjwi0EDj3u4rmtsjcoIq5uXixULvsEjaGSuEZ6DiuOYTottiKwy7xW4VfKyBM1BSlWaaQav9Aq1J6AESm8n2ljuN+Jeiz1SYWpAiLDojpWQKT4vZEwqOGogOiByukosOrpC6uzz4HuiViqZE61fBc7apPXrYgcT/TdBt6V1CYVLvWBKLAmjA9eWztWmSQSj8v+lpqlaoWnVb61xtqi6FKBPwLMKjFctq3yqzKsvi6bv1cMuA3wxMcdTQ4bgRvWo7+Xofh+NgjonsKhMah3vjPpXGr0mWsxPpAD+tvRRybUKg+Hjy4a9lRbpVRVMImkliV2VAuUAaL7j1Vlrm5XMBSkHvMIKJxeqgDX4mnls/8f8E/8tqAfEQrEDwAAAABJRU5ErkJggg=="/>
+                   <!-- Tiktok -->
+                   <img 
+                   src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAitJREFUSEvFlj1IllEUx39+pKAYzmXpoiihRiFJForgkA05S0sQ4qCTqINLgoM6JFiLg24OLZE46OagixGEGX5gk+kQChKJhFB6D9wXrof7fLzP+8p7t+e5zzm/8z/n3PPcPHK08nLEJVNwB9DiBP8TmI0jJlPwJDDogA4M+E4uwMK8C4jy0JVtxQKTLAznAvwfaANWw+CZKp4AhjyAc6AH+AD89QVwXeAUSwL4DHwEptwAMgXrrg7KrsAfZROsU30GFAGFKoJ1oDkJ+AZwG7gF5ANr1okGfwO6DHgM6HZAaYMrgBHgtaPiN1BunY6ro7MB3Ld7dcAToNY+D8RV/NTUZQkoVWk7BcrsO13j70B91BmW/aDmegys2HppP3+AmwHgTdPBDUnBBYBEnkqR9nNtil+ZeTunaNvm+Y3NgtR3L6S5GpMq/gS8cIyPbcMcehxmrcZSc6mh21CidDRARdbAksYTBXlmDv9yAPgd0OfsfQUeJEm1DId/yrAXmAlwJk14z9lbsAMkku07Tl+Ah47lDiANIwPfXXLT2Ffv3ppSXRkUQRH4wP3AtDKQYF4Cu/b9c3OWBVKjvmu3nZ9IcQmwBVR6rGUWy9yWcahX7PqKYdDkkhkbeoNQ1F9GaauTkUSKU0Zyg5CUF0d4+WF+9p3OUImEhilOGVcD80CTx9sF8N5efbzXm7AI4t5AquyxkR+AZODIdP6ip6tjqY2jOLajdD+Mqzhdv5HfXwK70l8fs8wI2wAAAABJRU5ErkJggg=="/>
+                   <!-- whatsapp -->
+                   <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAxxJREFUSEvlllnITlEUhp8/U5nnzEMyRchYZiFTbpAklNkNFyhKSS4QSkIZL4TIEEmIkjkpkaIk8zzPMoX9am2dduf8+3xXf7Juvu+cs9d61/CutXYRJSRFJYTLPwdcE2gIlAYeAM+AX4Vkr5CIWwKTgPFA3QDkA3AOOOgc2gJ8izmRB7g+sBiYCH9L8xm4Y1G2DUAeA1OBw8WBx4CHAduBqsBzYC1wCLicMFrRgXQFegLzgPLm0ExgXRZ4ccCDgSOmuBxYCHyNpLCRpXqAnZvhyrIhTScLuDFwFagMzAZWxWoWfJ8LrHDO/gT6AGdD/SxgRaqIlwALTKks0B04lZPBO4ExFkD7PMBK03HgIdDMGKq6nQdkQKxW3WMiXly3DhgF7EsqpEW8HpgOzALW2GH9X23/FXHfGKp9H2LsFiGHx4DvASKJevWpHfbOeN16zrknOcGVuVpAdeCT1wkjLgd8AW4ArRKG5wAr7Vm1G5sTVMcuuO7o5oZLx2QbhsAag/dtCqkvvTQwZ1TracCmAoD3AiON3aezIlaKlepLblB0DoxrOCxztX9t7FZW8ohndw8j6B+dMOIKwEfgrSNTtRSr3vs3FrmeJWJ6KWBrSquJjL2BJhZUKrBe3nYGmhqwHEiKBoraqk2i3opIDqjP7xoX/KgsA7y0szWAH1mp1nvP4Ck2/sLAq1ibKco02eP6d7R98GN3mwtoQvJwWh9rSFyxtDR3k+t7BoCMDjSG17Ez2lr9gIv2rN8u9u5kDFjfz9i2GeSIdCzCIPVnOztz063ER/Z/PrDU1feEs9c/tJE1q1UXjTwRTEu+UNE+3mjjVv17LQ+wT7U2Si9TUJvpehNbi7oKaaksMr1xwI40r9Mi9ivtgGuTW65eQ4HWNiLFVpHvVWCskrt7TXatKF3dWNSSinpXVqrSgP1KTOooVbpzKSJd6l64PtYV550dEoE01ST7zQG1ZaaEwOq792Zcq1FRH7VoNejVEiOATo44muteVIbdwGbbv1FOhMC1HVgHt/ZE/eJuitJrASjF/nobBUseiF32CjJWyOH/D/g3btWaH4iaddwAAAAASUVORK5CYII="/>
+                </div>
+                <div class="col">
+                    <p>
+                        <font color="black">Otros links de interés</font>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Enlace a Bootstrap JS y dependencias -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

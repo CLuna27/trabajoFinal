@@ -1,0 +1,116 @@
+/* Estilos para la página dos */
+
+body {
+    background-color: #e3ccd8;
+    /* Color de fondo de pagina */
+}
+
+.miMenuNavegacion {
+    background-color: #d5bcc9;
+    font-size: 19px;
+}
+
+.navbar .nav-link {
+    color: #d63384;
+    /* color del texto de la barra de navegacion */
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    border-radius: 0;
+}
+
+/* Estilos para las secciones de contenido */
+.container .row .col-lg-4 {
+    margin-bottom: 60px;
+}
+
+/* Estilos para el footer */
+.footer {
+    background-color: #343a40;
+    /* Color de fondo del footer */
+    color: #e3ccd8;
+    /* Color del texto del footer */
+}
+
+/*Logo*/
+.logo {
+    width: 80px;
+}
+
+/*imagen inicio*/
+.imagendeinicio {
+    width: 100%;
+    /*ancho de la imagen*/
+    max-width: 100%;
+    height: 40vh;
+    /*altura de la imágenes*/
+    object-fit: cover;
+
+}
+
+.centered-title {
+    text-align: center;
+    font-size: 70px;
+    /*Tamaño del titulo*/
+}
+
+/* Estilos para imagenes */
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+/* Estilos Formulario de Inscripcion*/
+
+/* Cambios de estilo para el modal */
+
+.modal-header {
+    background-color: #edaccd;
+    /* color de fondo del encabezado del modal */
+    color: #d63384;
+    /* Cambia el color del texto del encabezado del modal */
+}
+
+.modal-footer {
+    background-color: #edaccd;
+    /* color de fondo del pie del modal */
+}
+
+/* Cambios de estilo para los campos del formulario */
+
+.form-floating input.form-control {
+    background-color: #fff;
+    /* color de fondo de los campos del formulario */
+    color: #333;
+    /* color del texto de los campos del formulario */
+    border-color: #d63384;
+    /* color del borde de los campos del formulario */
+}
+
+.form-floating label {
+    color: #d63384
+        /* color del texto de las etiquetas del formulario */
+}
+
+/* Cambios de estilo para los botones */
+
+.botonInicial {
+    background-color: #d63384;
+    /* color de fondo de los botones */
+    color: #fff;
+    /* color del texto de los botones */
+}
+
+.modal-footer .btn-primary,
+.modal-footer .btn-secondary {
+    background-color: #d63384;
+    /* color de fondo de los botones */
+    border-color: #d63384;
+    /* color del borde de los botones */
+    color: #fff;
+    /* color del texto de los botones */
+}
